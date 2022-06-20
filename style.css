@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Open+Sans:wght@500&family=Patrick+Hand&family=Roboto+Serif:ital,opsz,wght@1,8..144,600&family=Roboto:ital,wght@0,400;0,700;1,300;1,500;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./snow.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bigtext{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown{
+
+   text-align: center;
+   
+}
+
+.countdown span{
+    font-size: 1.5rem;
+}
